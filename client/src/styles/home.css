@@ -1,0 +1,19 @@
+.home-img { 
+    width: 100vw;
+    height: 90vh;
+  }
+  .caro-text {
+    color: #dfd1d1;
+  }
+.text-box {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  /* margin-top: 110px; */
+  /* background-color: rgb(42, 63, 74); */
+  border:1px solid #ccc;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  
+}
