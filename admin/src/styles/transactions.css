@@ -1,0 +1,52 @@
+.transaction-history {
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  margin-top: 100px;
+}
+
+.transaction-header {
+  text-align: center;
+  color: rgba(250, 230, 75, 1);
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.transactions {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.transaction-card {
+  background: #fffef3;
+  border: 1px solid rgba(250, 230, 75, 0.6);
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.transaction-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.transaction-card p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.transaction-card strong {
+  color: #222;
+}
+
+.divider {
+  margin: 0 0.6rem;
+  color: #bbb;
+}

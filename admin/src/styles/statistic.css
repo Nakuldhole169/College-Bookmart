@@ -1,0 +1,91 @@
+.statistics-container {
+  background: white;
+  color: #333;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  margin-top: 100px;
+}
+
+.statistics-header {
+  color: rgba(250, 230, 75, 1);
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.statistics-form {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.statistics-form label {
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+
+.fetch-button {
+  background: rgba(250, 230, 75, 1);
+  border: none;
+  font-weight: 600;
+  color: #333;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.fetch-button:hover {
+  background: rgba(230, 210, 60, 1);
+  transform: translateY(-1px);
+}
+
+.details-button {
+  display: block;
+  margin: 2rem auto;
+  background: #fff;
+  color: rgba(250, 230, 75, 1);
+  border: 2px solid rgba(250, 230, 75, 1);
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.details-button:hover {
+  background: rgba(250, 230, 75, 1);
+  color: #333;
+}
+
+.stats-card {
+  background: #fffef3;
+  border: 1px solid rgba(250, 230, 75, 0.6);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.stats-card h3, 
+.stats-card p {
+  margin: 0.5rem 0;
+}
+
+.modal-header-custom {
+  background: rgba(250, 230, 75, 1);
+  color: #333;
+  font-weight: bold;
+}
+
+.statistics-table thead {
+  background: rgba(250, 230, 75, 0.8);
+  color: #333;
+}
+
+.statistics-table th, 
+.statistics-table td {
+  text-align: center;
+  vertical-align: middle;
+}
